@@ -1,23 +1,34 @@
-body {
-    font-family: 'Allan', cursive;
-}
-
+body,
 .navbar {
+    font-family: 'Allan', cursive;
     background-color: #D7E0C9;
+    font-size: 20px;
 }
 
-.navbar-brand,
-.navbar-brand:hover {
+.navbar-brand {
     font-size: 2em;
+}
+
+.cor-dourado,
+.navbar-brand:hover {
     color: #967500;
 }
 
-.navbar-brand span,
-.nav .nav-item .nav-link {
+.cor-azul,
+.nav .nav-item .nav-link:hover {
     color: #1B3058;
 }
 
 .nav .nav-item .nav-link.active {
     background-color: #967500;
     color: #D7E0C9;
+}
+
+section#capa {
+    background: url('../img/bg-effect.png') no-repeat center top fixed;
+    background-size: cover;
+}
+
+section#capa p {
+    font-size: 1.5em;
 }
