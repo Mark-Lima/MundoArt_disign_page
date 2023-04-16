@@ -1,0 +1,23 @@
+body {
+    font-family: 'Allan', cursive;
+}
+
+.navbar {
+    background-color: #D7E0C9;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    font-size: 2em;
+    color: #967500;
+}
+
+.navbar-brand span,
+.nav .nav-item .nav-link {
+    color: #1B3058;
+}
+
+.nav .nav-item .nav-link.active {
+    background-color: #967500;
+    color: #D7E0C9;
+}
