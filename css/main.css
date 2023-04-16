@@ -19,16 +19,29 @@ body,
     color: #1B3058;
 }
 
+.bg-azul {
+    background-color: #1B3058;
+}
+
 .nav .nav-item .nav-link.active {
     background-color: #967500;
     color: #D7E0C9;
 }
 
-section#capa {
+main {
     background: url('../img/bg-effect.png') no-repeat center top fixed;
     background-size: cover;
 }
 
 section#capa p {
     font-size: 1.5em;
+}
+
+section#colecoes .card {
+    background-color: transparent;
+    border: none;
+}
+
+section#colecoes .card img{
+    border-radius: 0;
 }
