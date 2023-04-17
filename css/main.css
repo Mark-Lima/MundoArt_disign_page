@@ -23,6 +23,12 @@ body,
     background-color: #1B3058;
 }
 
+.bg-dourado,
+.bg-dourado:hover{
+    background-color: #967500;
+    color: #1B3058;
+}
+
 .nav .nav-item .nav-link.active {
     background-color: #967500;
     color: #D7E0C9;
@@ -44,4 +50,8 @@ section#colecoes .card {
 
 section#colecoes .card img{
     border-radius: 0;
+}
+
+textarea {
+    resize: none;
 }
